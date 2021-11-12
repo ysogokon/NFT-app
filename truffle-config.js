@@ -5,10 +5,9 @@ module.exports = {
       port: 7545,
       network_id: "*",
     },
-
-    contracts_directory: "./src/contracts",
-    contracts_build_directory: "./src/abis",
   },
+  contracts_directory: "./src/contracts/",
+  contracts_build_directory: "./src/abis/",
 
   compilers: {
     solc: {
